@@ -100,12 +100,12 @@
     
     #Btn_Pub:hover,
     #Btn_Sub:hover,
-    .Btn_Connect:hover {
+    #Btn_connect:hover {
         background-color: green;
         color: white;
     }
     
-    .Btn_Connect:hover {
+    #Btn_connect:hover {
         background-color: green;
         ;
         color: white;
@@ -114,7 +114,7 @@
 
 
 <body>
-    <h2>IoT Switch</h2>
+    <h2>TEMPERATURE</h2>
     <div class="container">
         <br>
         <div class="row">
@@ -123,41 +123,425 @@
                     <div class="container">
                         <center>
                             <div class="card-header">
-                                <div class="card-body">
-                                    <!-- <label for="input-broker-ws"> Address:</label> -->
-
-
-                                    <!-- <input type="text" class="form-control" id="input-broker-ws" value="wss://test.mosquitto.org:8081/mqtt"><br> -->
-
-                                    <button class="Btn_Connect">On</button>
-
-                                    <button class="Btn_disConnect">Off</button>
-                                </div>
-                                <label for="status" id="Status">Status:</label>
-
-                                <!-- <center>
-                                    <p id="status"><b><i>Connected</i></b></p>
-                                </center> -->
-
-                                <!-- </div> -->
+                                <div class="text-center h4">Group1</div>
                             </div>
                         </center>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label class="text-left">yosores</label>
+                                <input type="text" class="form-control" id="group4">
+                            </div>
+                            <div class="form-group">
+                                <label class="text-justify">alonzoBarlas/temperature</label>
+                                <input type="text" class="form-control" id="group1">
+                            </div>
+                            <!-- <center>
+                                        <button id="Btn_Pub">Publish</button></center> -->
+                        </div>
+                        <!-- <center>
+                            <div class="card-header">
+                                <div class="text-center h4">Broker</div>
 
-                        <!-- row1 -->
+                            </div>
+                            <div class="card-body">
+                                <label for="input-broker-ws"> Address:</label>
+
+                                <input type="text" class="form-control" id="input-broker-ws" value="wss://test.mosquitto.org:8081/mqtt"><br>
+
+                                <button id="Btn_connect">Connect</button>
+
+                                <button class="Btn_disConnect">Disconnect</button>
+                            </div>
+                        </center>
+                        <label for="Status" id="sta">Status:</label>
+
+                        <center>
+                            <p id="Status"><b><i>DisConnected</i></b></p>
+                        </center> -->
+
                     </div>
+                </div>
+            </div>
+
+
+            <!-- column 2 -->
+            <div class="col">
+                <div class="card">
+                    <div class="container">
+                        <center>
+                            <div class="card-header">
+                                <div class="text-center h4">Group2</div>
+                            </div>
+                        </center>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label class="text-left">luzmibel</label>
+                                <input type="text" class="form-control" id="group7">
+                            </div>
+                            <div class="form-group">
+                                <label class="text-justify">amabel</label>
+                                <input type="text" class="form-control" id="group2">
+                            </div>
+                            <!-- <center>
+                                <button id="Btn_Pub">Publish</button></center> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="col">
+                <div class="card">
+                    <div class="container">
+                        <center>
+                            <div class="card-header">
+                                <div class="text-center h4">Group3</div>
+                            </div>
+                        </center>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label class="text-left">Status</label>
+                                <input type="text" class="form-control" id="topic">
+                            </div>
+                            <div class="form-group">
+                                <label class="text-justify">roseDaine</label>
+                                <input type="text" class="form-control" id="group3">
+                            </div>
+                            <center>
+                                    <button id="Btn_Pub">Publish</button></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br> -->
+            <!-- column 3 -->
+            <!-- <div class="col">
+                <div class="card">
+                    <div class="container">
+                        <center>
+                            <div class="card-header">
+                                <div class="text-center h4">Group4</div>
+                            </div>
+                        </center>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label class="text-left">Status</label>
+                                <input type="text" class="form-control" id="topic">
+                            </div>
+                            <div class="form-group">
+                                <label class="text-justify">dsfg</label>
+                                <input type="text" class="form-control" id="group4">
+                            </div>
+                            <center>
+                                        <button id="Btn_Pub">Publish</button></center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> -->
+            <br>
+            <!-- row1 -->
+            <br>
+            <div class="container">
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <div class="card">
+                            <div class="container">
+                                <center>
+                                    <div class="card-header">
+                                        <div class="text-center h4">Group3</div>
+                                    </div>
+                                </center>
+                                <div class="card-body">
+                                    <div class="form-group">
+                                        <label class="text-left">raymund</label>
+                                        <input type="text" class="form-control" id="group5">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="text-justify">marichu</label>
+                                        <input type="text" class="form-control" id="group12">
+                                    </div>
+                                    <!-- <center>
+                                                <button id="Btn_Pub">Publish</button></center> -->
+                                </div>
+                                <!-- <center>
+                                    <div class="card-header">
+                                        <div class="text-center h4">Broker</div>
+        
+                                    </div>
+                                    <div class="card-body">
+                                        <label for="input-broker-ws"> Address:</label>
+        
+                                        <input type="text" class="form-control" id="input-broker-ws" value="wss://test.mosquitto.org:8081/mqtt"><br>
+        
+                                        <button id="Btn_connect">Connect</button>
+        
+                                        <button class="Btn_disConnect">Disconnect</button>
+                                    </div>
+                                </center>
+                                <label for="Status" id="sta">Status:</label>
+        
+                                <center>
+                                    <p id="Status"><b><i>DisConnected</i></b></p>
+                                </center> -->
+
+                            </div>
+                        </div>
+                    </div>
+                   
+                            <div class="col">
+                                <div class="card">
+                                    <div class="container">
+                                        <center>
+                                            <div class="card-header">
+                                                <div class="text-center h4">Group4</div>
+                                            </div>
+                                        </center>
+                                        <div class="card-body">
+                                            <div class="form-group">
+                                                <label class="text-left">Cindy</label>
+                                                <input type="text" class="form-control" id="group8">
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="text-justify">Precious</label>
+                                                <input type="text" class="form-control" id="group10">
+                                            </div>
+                                            <!-- <center>
+                                                        <button id="Btn_Pub">Publish</button></center> -->
+                                        </div>
+                                        <!-- <center>
+                                            <div class="card-header">
+                                                <div class="text-center h4">Broker</div>
+                
+                                            </div>
+                                            <div class="card-body">
+                                                <label for="input-broker-ws"> Address:</label>
+                
+                                                <input type="text" class="form-control" id="input-broker-ws" value="wss://test.mosquitto.org:8081/mqtt"><br>
+                
+                                                <button id="Btn_connect">Connect</button>
+                
+                                                <button class="Btn_disConnect">Disconnect</button>
+                                            </div>
+                                        </center>
+                                        <label for="Status" id="sta">Status:</label>
+                
+                                        <center>
+                                            <p id="Status"><b><i>DisConnected</i></b></p>
+                                        </center> -->
+        
+                                    </div>
+                            
+
+
+                    <!-- column 2 -->
+                    <!-- <div class="col">
+                        <div class="card">
+                            <div class="container">
+                                <center>
+                                    <div class="card-header">
+                                        <div class="text-center h4">Group6</div>
+                                    </div>
+                                </center>
+                                <div class="card-body">
+                                    <div class="form-group">
+                                        <label class="text-left">Status</label>
+                                        <input type="text" class="form-control" id="topic">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="text-justify">renzyclaire</label>
+                                        <input type="text" class="form-control" id="group6">
+                                    </div>
+                                    <center>
+                                        <button id="Btn_Pub">Publish</button></center>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="col">
+                        <div class="card">
+                            <div class="container">
+                                <center>
+                                    <div class="card-header">
+                                        <div class="text-center h4">Group7</div>
+                                    </div>
+                                </center>
+                                <div class="card-body">
+                                    <div class="form-group">
+                                        <label class="text-left">Status</label>
+                                        <input type="text" class="form-control" id="topic">
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="text-justify">luzIan</label>
+                                        <input type="text" class="form-control" id="group7">
+                                    </div>
+                                    <!-- <center>
+                                            <button id="Btn_Pub">Publish</button></center> -->
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <br>
+    <!-- column 3 -->
+    <!-- <div class="col">
+        <div class="card">
+            <div class="container">
+                <center>
+                    <div class="card-header">
+                        <div class="text-center h4">Group8</div>
+                    </div>
+                </center>
+                <div class="card-body">
+                    <div class="form-group">
+                        <label class="text-left">Status</label>
+                        <input type="text" class="form-control" id="topic">
+                    </div>
+                    <div class="form-group">
+                        <label class="text-justify">Group8</label>
+                        <input type="text" class="form-control" id="group8">
+                    </div>
+                    <!-- <center>
+                                                <button id="Btn_Pub">Publish</button></center> -->
                 </div>
             </div>
         </div>
     </div>
 
+    </div> -->
+    <br>
+    <br>
+    <div class="container">
+        <br>
+        <div class="row">
+            <div class="col">
+                <div class="card">
+                    <div class="container">
+                        <center>
+                            <div class="card-header">
+                                <div class="text-center h4">Group9</div>
+                            </div>
+                        </center>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label class="text-left">Status</label>
+                                <input type="text" class="form-control" id="topic">
+                            </div>
+                            <div class="form-group">
+                                <label class="text-justify">Diansin/Gabatan</label>
+                                <input type="text" class="form-control" id="group9">
+                            </div>
+                            <!-- <center>
+                                                    <button id="Btn_Pub">Publish</button></center> -->
+                        </div>
+                        <!-- <center>
+                                        <div class="card-header">
+                                            <div class="text-center h4">Broker</div>
+            
+                                        </div>
+                                        <div class="card-body">
+                                            <label for="input-broker-ws"> Address:</label>
+            
+                                            <input type="text" class="form-control" id="input-broker-ws" value="wss://test.mosquitto.org:8081/mqtt"><br>
+            
+                                            <button id="Btn_connect">Connect</button>
+            
+                                            <button class="Btn_disConnect">Disconnect</button>
+                                        </div>
+                                    </center>
+                                    <label for="Status" id="sta">Status:</label>
+            
+                                    <center>
+                                        <p id="Status"><b><i>DisConnected</i></b></p>
+                                    </center> -->
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- column 2 -->
+            <div class="col">
+                <div class="card">
+                    <div class="container">
+                        <center>
+                            <div class="card-header">
+                                <div class="text-center h4">Group10</div>
+                            </div>
+                        </center>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label class="text-left">Status</label>
+                                <input type="text" class="form-control" id="topic">
+                            </div>
+                            <div class="form-group">
+                                <label class="text-justify">preAnn/temp</label>
+                                <input type="text" class="form-control" id="group10">
+                            </div>
+                            <!-- <center>
+                                            <button id="Btn_Pub">Publish</button></center> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="container">
+                        <center>
+                            <div class="card-header">
+                                <div class="text-center h4">Group11</div>
+                            </div>
+                        </center>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label class="text-left">Status</label>
+                                <input type="text" class="form-control" id="topic">
+                            </div>
+                            <div class="form-group">
+                                <label class="text-justify">Maryrose</label>
+                                <input type="text" class="form-control" id="group11">
+                            </div>
+                            <!-- <center>
+                                                <button id="Btn_Pub">Publish</button></center> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <!-- column 3 -->
+            <div class="col">
+                <div class="card">
+                    <div class="container">
+                        <center>
+                            <div class="card-header">
+                                <div class="text-center h4">Group12</div>
+                            </div>
+                        </center>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label class="text-left">Status</label>
+                                <input type="text" class="form-control" id="topic">
+                            </div>
+                            <div class="form-group">
+                                <label class="text-justify">Group12</label>
+                                <input type="text" class="form-control" id="group12">
+                            </div>
+                            <!-- <center>
+                                                    <button id="Btn_Pub">Publish</button></center> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
 
 
 
 
-    <script src="scripts/browserMqtt.js"></script>
-    <script src="scripts/controller.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
+        <script src="scripts/browserMqtt.js"></script>
+        <script src="scripts/controller.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js"></script>
 
 
 </body>
